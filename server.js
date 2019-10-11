@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(router);
 
-var db = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+var db = process.env.MONGODB_URI || "mongodb://user:password1@ds333238.mlab.com:33238/heroku_lgdn8kc7";
 
 mongoose.connect(db, function(error){
     if (error) {
