@@ -1,39 +1,42 @@
 # News-Scraping
 
-<h3>Heroku Link<a"https://intense-citadel-62906.herokuapp.com/"</a>
+<h3>Heroku Link<a href= "https://intense-citadel-62906.herokuapp.com/">Here</a>
 
 
 <h1>News Scraper</h1>
-This app allows users to view NPR News articles, save their favorites onto another page, and comment on their favorites. Each article displayed includes a headline which is also a link to the source article and a description that includes the date of publish. There is a 'remove' button next to each article on the saved articles page, but currently it does not work. The app uses Node/Express for the server and routing, MongoDB/Mongoose for the database and models, Handlebars for the layout and views, & Cheerio/Request for scraping the data from www.npr.org
+<p>This app allows users to view news articles, save their favorites onto another page, and comment on their favorites. Each article displayed includes a headline which is also a link to the source article and a description that includes the date of publish.  The app uses Node/Express for the server and routing, MongoDB/Mongoose for the database and models, Handlebars for the layout and views, & Cheerio/Request for scraping the data.</p>
 
-Live Demo
+<h3>Install dependencies</h3>
+<ul>
+<li>In your CLI, enter mongod</li>
+<li>In a new CLI window, go to root of directory and enter node server.js</li>
+<li>In browser, navigate to http://localhost:3000</li>
+</ul>
 
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development. I will assume that you already have Node.js and MongoDB installed locally. See deployment for notes on how to deploy the project on a live system.
+<h3>Dependencies</h3>
+<h2>You will need to npm install the following node modules:</h2>
+<ul>
+<li>express</li>
+<li>express-handlebars</li>
+<li>mongoose</li>
+<li>cheerio</li>
+<li>request</li>
+</ul>
 
-Install dependencies
-In your CLI, enter mongod
-In a new CLI window, go to root of directory and enter node server.js
-In browser, navigate to http://localhost:3000
-Dependencies
-You will need to npm install the following node modules:
+<p>Since I have included a package.json file, you do not need to install dependencies by name. Simply run the following in the root of your directory:</p>
 
-express
-express-handlebars
-mongoose
-body-parser
-cheerio
-request
-Since I have included a package.json file, you do not need to install dependencies by name. Simply run the following in the root of your directory:
+<p>npm install</p>
 
-npm install
-Deployment
-Follow these instructions to deploy your app live on Heroku
+<h3>Deployment</h3>
+<h4>Follow these instructions to deploy your app live on Heroku</h4>
 
-Create a heroku app in your project directory
+<ul>
+<li>Create a heroku app in your project directory</li>
 
-heroku create <projectName>
-Provision mLab MongoDB add-on for your project
+<li>heroku create <projectName>
+Provision mLab MongoDB add-on for your project</li>
 
-heroku addons:create mongolab
-Now your project should be successfully deployed on heroku.
+<li>heroku addons:create mongolab
+Now your project should be successfully deployed on heroku.</li>
+
+<ul>
