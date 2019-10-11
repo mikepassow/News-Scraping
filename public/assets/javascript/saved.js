@@ -67,7 +67,7 @@ $(document).ready(function () {
                 "</div>",
                 "<div class='card'>",
                 "<div class='card-header text-center text-danger'>",
-                "<h3> Do you want to Browse Available Articles?</h3>",
+                // "<h3> Do you want to Browse Available Articles?</h3>",
                 "</div>",
                 "<div class='card-body text-center'>",
 
