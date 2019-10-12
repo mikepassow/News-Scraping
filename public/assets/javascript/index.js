@@ -73,7 +73,7 @@ $(document).ready(function(){
         .then(function(data){
             if (data.ok) {
                 initPage();
-            }
+            };
         });
     }
 
@@ -81,7 +81,10 @@ $(document).ready(function(){
         $.get("/api/fetch")
         .then(function(data){
             initPage();
-            bootbox.alert("<h3 class= 'text-center m-top-80'>" + data.message + "<h3>");
+            console.log(bootbox);
+            console.log(data.message);
+            let message = data.message || "error getting data";
+            bootbox.alert($("<h3 class='text-center m-top-80'>").text(message));
         });
     }
 });

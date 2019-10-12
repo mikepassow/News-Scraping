@@ -1,6 +1,6 @@
 # News-Scraping
 
-<h3>Heroku Link<a href= "https://intense-citadel-62906.herokuapp.com/">Here</a>
+<h3>Heroku Link <a href= "https://intense-citadel-62906.herokuapp.com/">Here</a>
 
 
 <h1>News Scraper</h1>
@@ -32,11 +32,9 @@
 
 <ul>
 <li>Create a heroku app in your project directory</li>
-
-<li>heroku create <projectName>
-Provision mLab MongoDB add-on for your project</li>
-
-<li>heroku addons:create mongolab
-Now your project should be successfully deployed on heroku.</li>
-
+<li>heroku create "Project Name"</li>
+<li>Provision mLab MongoDB add-on for your project</li>
+<li>heroku add ons:create mongolab</li>
 <ul>
+
+<p>Now your project should be successfully deployed on heroku.</p>
