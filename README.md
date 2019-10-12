@@ -35,6 +35,5 @@
 <li>heroku create "Project Name"</li>
 <li>Provision mLab MongoDB add-on for your project</li>
 <li>heroku add ons:create mongolab</li>
+<li>Now your project should be successfully deployed on heroku.</li>
 <ul>
-
-<p>Now your project should be successfully deployed on heroku.</p>
