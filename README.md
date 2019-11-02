@@ -37,3 +37,17 @@
 <li>heroku add ons:create mongolab</li>
 <li>Now your project should be successfully deployed on heroku.</li>
 <ul>
+
+<h2>Screenshots of How it Works
+
+<div>
+ <img src="/screenshots/1.png" width="400px"> 
+ </div>
+
+ <div>
+ <img src="/screenshots/2.png" width="400px"> 
+ </div>
+
+ <div>
+ <img src="/screenshots/3.png" width="400px"> 
+ </div>
